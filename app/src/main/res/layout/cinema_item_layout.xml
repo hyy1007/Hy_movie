@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="110dp"
+    android:paddingBottom="10dp"
+    android:background="#f1eeee">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simp_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        fresco:placeholderImage="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/simp_view"
+        android:text="afsdfa"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_name"
+        android:lines="1"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/simp_view"
+        android:text="afsdfa" />
+
+    <TextView
+        android:id="@+id/text_mi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_address"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/simp_view"
+        android:text="afsdfa" />
+
+    <ImageView
+        android:id="@+id/img_like_cinema"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@id/text_mi"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_favorite_cinema_24dp" />
+
+</RelativeLayout>

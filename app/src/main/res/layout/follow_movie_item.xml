@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/dp_10"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/dp_30"
+    android:layout_marginLeft="@dimen/dp_24"
+    android:layout_marginRight="@dimen/dp_24"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_movie_item_icon"
+        android:layout_width="@dimen/dp_103"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_height="@dimen/dp_128" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/my_movie_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:text="铁血战士"/>
+        <TextView
+            android:id="@+id/my_movie_item_jianjie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:textSize="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="简介 "/>
+
+        <TextView
+            android:id="@+id/my_movie_item_time"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_height="wrap_content"
+            android:text="2018-9-12"/>
+    </LinearLayout>
+</LinearLayout>

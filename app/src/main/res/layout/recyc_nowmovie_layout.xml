@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="130dp"
+        android:layout_height="210dp"
+        android:layout_margin="10dp"
+        fresco:roundedCornerRadius="10dp"
+        android:id="@+id/simp_view_now"
+        fresco:placeholderImage="@mipmap/ic_launcher"/>
+</LinearLayout>
